@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Regression_Suite_Viewer.test.early_proof.early_proof_test">
+        <methods>
+          <include name="earlyproof_validation"/>
+          <include name="earlyprrof_test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Regression_Suite_Viewer.test.early_proof.early_proof_test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

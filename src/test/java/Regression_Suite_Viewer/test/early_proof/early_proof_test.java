@@ -48,7 +48,7 @@ public class early_proof_test extends TestBase {
 		String manuscript = driver.findElement(By.xpath("//*[@class='mdl-cell mdl-cell--3-col mdl-typography--text-left mdl-manuscript-txt']")).getText();
 		System.out.println(manuscript);
 		String revisionnumber = driver.findElement(By.xpath("//*[@class='mdl-cell mdl-cell--2-col mdl-typography--text-center mdl-rivisionNumber-txt']")).getText();
-		System.out.println(revisionnumber);
+		System.out.println(revisionnumber);    //Revision number
 	}
 
 }

@@ -20,7 +20,7 @@ public class early_proof_test extends TestBase {
 	@Test(priority=1)
 	public void earlyproof_validation() {
 		String actualTitle = driver.findElement(By.xpath("//*[@class='error_heading']")).getText();
-		String expectedTitle="Early Proof Not Generate";
+		String expectedTitle="Early Proof Not Generated";
 		assertEquals(actualTitle, expectedTitle);
 		System.err.println(actualTitle);
 	}
